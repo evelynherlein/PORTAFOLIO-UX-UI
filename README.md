@@ -36,7 +36,7 @@ https://www.figma.com/make/h99gjAMgK4ScGjByTz4xVF/Portafolio-UXUI-Evelyn-Herlein
 
 ### Repositorio de GitHub
 
-https://github.com/evelynherlein/ux-ui
+https://github.com/evelynherlein/PORTAFOLIO-UX-UI.git
 
 ---
 
