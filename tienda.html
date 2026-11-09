@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MOTOZONE · Prototipo de tienda | Evelyn Herlein</title>
+<meta name="description" content="Prototipo navegable de MOTOZONE: tienda conceptual de cascos, camperas, guantes, botas y protecciones para motociclistas. Compra simulada.">
+<meta name="theme-color" content="#111111">
+<meta property="og:title" content="MOTOZONE · Prototipo de tienda">
+<meta property="og:description" content="Catálogo, filtros, ficha de producto, carrito y checkout simulado para motociclistas.">
+<meta property="og:image" content="https://TU-SITIO.netlify.app/img/og-image.jpg">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap">
+<link rel="stylesheet" href="css/tienda.css">
+</head>
+<body>
+<a class="skip-link" href="#app">Saltar al contenido</a>
+<div class="shop">
+<div class="shop-top">ENVÍOS A TODO EL PAÍS · COMPRA SIMULADA, SIN COBROS REALES</div>
+<header class="shop-header">
+<a class="moto-logo" href="#/" aria-label="MOTOZONE, ir al inicio">MOTO<span>ZONE</span></a>
+<nav id="shop-nav" aria-label="Navegación de la tienda">
+<a href="#/">Inicio</a><a href="#/catalogo">Catálogo</a><a href="#/catalogo?oferta=1">Ofertas</a><a href="caso-motozone.html">Caso de estudio</a>
+</nav>
+<div class="shop-tools">
+<a href="#/carrito" aria-label="Carrito"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="20" r="1"/><circle cx="19" cy="20" r="1"/><path d="M3 4h2l2.5 11h11l2-7H7"/></svg><b id="cart-count" aria-live="polite">0</b></a>
+<button class="shop-menu" type="button" aria-expanded="false" aria-controls="shop-nav" aria-label="Abrir menú"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+</div>
+</header>
+<div id="app" tabindex="-1"></div>
+<footer class="shop-footer"><span class="moto-logo">MOTO<span>ZONE</span></span><p>Prototipo académico conceptual · 2026</p><a href="index.html#proyectos" style="color:#d4d4d8;font-size:12px">Volver al portfolio</a></footer>
+</div>
+<div id="toast" class="toast" role="status"></div>
+<script src="js/tienda.js?v=5" defer></script>
+</body>
+</html>
